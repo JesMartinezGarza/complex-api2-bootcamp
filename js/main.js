@@ -53,7 +53,7 @@ function getPainting(){
         if(image_id === null){
           image_id = 'No Image Id provided.'
           document.querySelector('#image_id').innerText = 'Image Id: ' + image_id
-          document.querySelector('#painting').setAttribute('class', 'hidden')
+          // document.querySelector('#painting').setAttribute('class', 'hidden')
           console.log(document.querySelector('#painting').getAttribute('src')) 
           console.log('This is here because image_id does equal null in name and type.')
         }else if(image_id !== null){
